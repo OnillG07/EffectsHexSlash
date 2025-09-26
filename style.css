@@ -74,13 +74,15 @@ div:hover {
     transition: border-color 0.4s ease-in-out, 
     background-color 0.4s ease-in-out, 
     width 500px 1s ease,
-    box-shadow 0.4s ease-in-out;
+    box-shadow 0.4s ease-in-out,
+    transform 0.7s ease-in-out;
 }
 
 .circle1:hover {
     border-color: rgba(255,190,0,0.6);
     background-color: rgba(0,190,255,0.9);
-    box-shadow: white
+    box-shadow: white;
+    transform: translateX(-20px);
 }
 
 .circle2 {
