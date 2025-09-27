@@ -140,17 +140,156 @@ div:hover {
     transform: scale(1.5);
 }
 
+.circle6 {
+    transition: width 1s ease,
+    height 1s ease,
+    box-shadow 0.5s ease-in-out;
+}
 
 .circle6:hover {
-    background-image: linear-gradient(45deg, rgba(100,50,50,0.7), darkred);
+    width: 150px;
+    height: 50px;
+    box-shadow: 0px 0px 150px rgba()
 }
 
 .circle7 {
     background: violet;
     border: 3px solid yellow;
-    transition: transform 0.7s ease;
+    transition: width 0.7s ease;
 }
 
 .circle7:hover {
-    transform: translateX(20px)
+    width: 20px;
+}
+
+.circle8 {
+    background: rgba(0,119,120,0.8);
+    border: 5px solid white;
+    transition: box-shadow 0.7s ease,
+}
+
+.circle8:hover {
+    background: black;
+    box-shadow: 0 0 40px rgba(0,0,255,0.9);
+}
+
+.circle9 {
+    transition: border-color 1s ease,
+    width 1s ease-in-out,
+    height 1s ease-in;
+}
+
+.circle9:hover {
+    border-color: rgba(155,155,139,0.4);
+    border: 10px rgba(50,169,78,0.8);
+    background-color: crimson;
+    width: 200px;
+    height: 200px;
+}
+
+.circle10 {
+    border: 3px solid whitesmoke;
+    transition: background-color 3s ease,
+    border-color 3s ease-out,
+    height 3s ease,
+    width 3s ease;
+}
+
+.circle10:hover {
+    background-color: darkred;
+    border-color: blue;
+    height: 10px;
+    width: 10px;
+}
+
+.circle11 {
+    transition: width 3s ease,
+    height 3s ease,
+    border-radius 3s ease-in-out,
+    border-color 3s ease,
+    background-color 1s ease;
+}
+
+.circle11:hover {
+    width: 300px;
+    height: 300px;
+    border-radius: 0%;
+    border-color: violet;
+    background-color: darkred;
+}
+
+.circle12 {
+    transition: border-color 5s ease,
+    background-color 5s ease,
+    border-radius 5s ease;
+}
+
+.circle12:hover {
+    border-color: solid white;
+    background-color: lightblue;
+    border-radius: 25%;
+}
+
+.circle13 {
+    transition: 
+}
+
+.circle13:hover {
+
+}
+
+.circle14 {
+    transition:
+}
+
+.circle14:hover {
+
+}
+
+.circle15 {
+    transition:
+}
+
+.circle15:hover {
+
+}
+
+.circle16 {
+    transition: 
+}
+
+.circle16:hover {
+    
+}
+
+.circle17 {
+    transition:
+}
+
+.circle17:hover {
+
+}
+
+.circle18 {
+    transition:
+}
+
+.circle18:hover {
+
+}
+
+.circle19 {
+    transition: 
+}
+
+.circle19:hover {
+
+}
+
+.circle20 {
+    transition: 
+}
+
+.circle20:hover {
+
 }
